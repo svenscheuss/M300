@@ -3,16 +3,9 @@
 
 # All Vagrant configuration is done below.
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/xenial64"
-    config.vm.box_version = "16.0.1"
-    config.vm.network "private_network", ip: "192.168.11.22"
-    config.vm.synced_folder ".", "/vagrant", disabled: true
-    config.vm.provider "virtualbox"
-    config.vm.provision "shell", inline: <<-SHELL
-		sudo apt-get update
-    sudo apt-get -y install yum
-		yum install -y http://mirror.nethserver.org/nethserver/nethserver-release-7.rpm
-		nethserver-install
-    nethserver-install nethserver-mail nethserver-nextcloud
-SHELL
+  config.vm.box = "ale_polidori/Nextcloud"
+  config.vm.box_version = "16.0.1"
+  config.vm.network "private_network", ip: "192.168.11.22"
+  config.vm.synced_folder ".", "/vagrant", disabled: true
+  config.vm.provider "virtualbox"
 end
