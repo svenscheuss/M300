@@ -13,5 +13,10 @@ Vagrant.configure("2") do |config|
   sudo apt-get install apache2 -y
   echo 'ServerName localhost' >> /etc/apache2/apache2.conf
   sudo service apache2 restart
+  sudo apt-add-repository ppa:ondrej/php
+  sudo apt-add-repository ppa:ondrej/apache2
+  sudo apt-get update
+  sudo apt-get install php7.1 -y
+  sudo service apache2 restart
 SHELL
 end
