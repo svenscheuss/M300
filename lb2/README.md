@@ -8,6 +8,7 @@ Webserver mit Apache2 und PHP
   - [Was ist Apache?](#wasistapache)
   - [Was ist PHP?](#wasistphp)
 - [Code](#Code)
+- [Umgebung](#umgebung)
 - [Anleitung](#anleitung)
 - [Quellenverzeichnis](#quellenverzeichnis)
 
@@ -77,6 +78,9 @@ Unten sieht man den verwendeten Code für die Installation von Apache und PHP
   `sudo service apache2 restart`  
 `SHELL`  
 `end`  
+<a name="umgebung"></a>
+### Umgebung
+![image](https://github.com/svenscheuss/M300-Services/tree/main/lb2/images/netzwerkplan.JPEG)
 
 <a name="anleitung"></a>
 ### Anleitung
