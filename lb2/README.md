@@ -80,7 +80,7 @@ Unten sieht man den verwendeten Code für die Installation von Apache und PHP
 `end`  
 <a name="umgebung"></a>
 ### Umgebung
-![image](https://github.com/svenscheuss/M300-Services/tree/main/lb2/images/netzwerkplan.JPEG)
+![image](https://github.com/svenscheuss/M300-Services/blob/main/lb2/images/netzwerkplan.JPEG)
 
 <a name="anleitung"></a>
 ### Anleitung
