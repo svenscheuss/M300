@@ -40,7 +40,7 @@ Je öfter man den python Container neustarten wird, wird die Datenbank gefühlt,
 
 <a name="grafiken"></a>
 ## Grafische Übersicht
-(https://github.com/svenscheuss/M300-Services/blob/main/lb3/layout.PNG)
+![website](https://github.com/svenscheuss/M300-Services/blob/main/lb3/layout.PNG)
 
 <a name="befehle"></a>
 ## Befehle
