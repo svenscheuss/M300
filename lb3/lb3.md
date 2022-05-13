@@ -1,7 +1,7 @@
 # M300 LB3 - Dokumentation
 
 ## Autor
-Sukash Sugumaran
+Sven Scheuss
 
 ## Inhaltsverzeichnis
 
