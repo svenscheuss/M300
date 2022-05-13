@@ -18,7 +18,7 @@ services:
             - ./app:/app
         networks:
             - lb3_network
-        link:
+        links:
             - db
 
     db:
