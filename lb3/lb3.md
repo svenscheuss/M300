@@ -40,6 +40,7 @@ Je öfter man den python Container neustarten wird, wird die Datenbank gefühlt,
 
 <a name="grafiken"></a>
 ## Grafische Übersicht
+(https://github.com/svenscheuss/M300-Services/blob/main/lb3/layout.PNG)
 
 <a name="befehle"></a>
 ## Befehle
@@ -129,7 +130,7 @@ mysql-db Container erstellen und Konfigurieren
 ## Service Testen
 Um zu Testen ob das erstellen der vm mithilfe von Vagrant funktioniert hat, muss im Browser die seite localhost:5000 aufgerufen werden. 
 Wenn folgende Seite zusehen ist hat alles funktioniert.  
-![website](https://github.com/misterT187/M300-Services/blob/main/lb3/Website.PNG)
+![website](https://github.com/svenscheuss/M300-Services/blob/main/lb3/Website.PNG)
 
 <a name="quellenverzeichnis"></a>
 ## Quellenverzeichnis
